@@ -1,0 +1,26 @@
+#table-container{
+    position: relative;
+    height: 800px;
+}
+
+.mainTable{
+    border: 2px solid #808080;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+
+th {
+    text-align: left;
+    background: #ccc;
+    padding: 5px;
+    border: 2px solid #808080;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid #808080;
+}
+

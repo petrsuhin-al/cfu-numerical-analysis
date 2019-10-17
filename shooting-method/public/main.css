@@ -1,0 +1,39 @@
+.wrapper{
+    overflow: auto;
+    width: 1360px;
+}
+
+#table-container-1{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+#table-container-2{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+#table-container-3{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.mainTable{
+    border: 2px solid #808080;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background: #ccc;
+    padding: 5px;
+    border: 2px solid #808080;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid #808080;
+}
